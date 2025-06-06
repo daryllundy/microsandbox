@@ -1,7 +1,5 @@
 version: v1
-suites:
-  - name: default
-    filters:
-      - type: allow
-        match:
-          type: all
+filters:
+  - type: allow
+    match:
+      type: all
