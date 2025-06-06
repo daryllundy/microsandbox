@@ -1,0 +1,6 @@
+version: v1
+policies:
+  - name: allow-all
+    mode: allow
+    match:
+      type: all
